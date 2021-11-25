@@ -1,4 +1,4 @@
 var x = document.querySelector("img");
-x.addEventListener("mouseover",  function() {
-    x.style.transform = "translate(50px)";
+x.addEventListener("mouseover", ()=> {
+    x.src = "images/image1_2.jpg";
 })
